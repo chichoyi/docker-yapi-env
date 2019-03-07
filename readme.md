@@ -6,12 +6,14 @@ Dockerized Yapi environment.
 
 * 首次安装：  `docker-compose up install`
 * 运行服务：  `docker-compose up web` or with `-d`
+* 后台运行服务：  `docker-compose up web &`
 * 停止服务：  `docker-compose down`
 * 更新 yapi：`docker-compose up update` 
+* 数据库连接失败请多次 `docker-compose up web`
 
 ## notice
 
 * 使用端口 `3000:3000`
-* yapi 版本 为 `v1.3.8`
+* yapi 版本 为 `v1.4.1`
 * 管理员帐号 `admin@admin.com` 密码：`ymfe.org`
 * [yapi](https://github.com/YMFE/yapi) [yapi-cli](https://github.com/YMFE/yapi-cli) 
